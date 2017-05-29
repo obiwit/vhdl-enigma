@@ -1,0 +1,8 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity SetUpRotors is
+end SetUpRotors;
+
+architecture Behavioral of SetUpRotors is 
+end Behavioral;

@@ -1,0 +1,9 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity CipherCtrlUnit is
+end CipherCtrlUnit;
+
+architecture Structural of CipherCtrlUnit is 
+begin
+end Structural;

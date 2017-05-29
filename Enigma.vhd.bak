@@ -1,0 +1,8 @@
+library IEEE;
+
+entity Enigma is
+	port();
+end Enigma;
+
+architecture Structural of Enigma is
+end Structural;

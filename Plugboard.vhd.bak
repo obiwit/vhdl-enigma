@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity Plugboard is
+	port(pass_dir      : in  std_logic;
+		  rot_sel       : in  std_logic_vector(2 downto 0);
+		  rot_pos       : in  std_logic_vector(4 downto 0); -- rotor starting position
+		  rot_ring      : in  std_logic_vector(4 downto 0);
+		  letter_in     : in  std_logic_vector(4 downto 0);
+		  letter_out    : out std_logic_vector(4 downto 0));
+end Plugboard;
+
+architecture Behavioral of Plugboard is
+	signal s_letter_in, s_letter_out : std_logic_vector(4 downto 0);
+begin
+end Behavioral;

@@ -1,0 +1,51 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity RotorPass is
+	port(pass_dir      : in  std_logic;
+		 rot_sel       : in  std_logic_vector(2 downto 0);
+		 letter_in     : in  std_logic_vector(4 downto 0);
+		 rot_start_pos : in  std_logic_vector(4 downto 0);
+		 rot_ring      : in  std_logic_vector(4 downto 0);
+		 letter_out    : out std_logic_vector(4 downto 0));
+end RotorPass;
+
+architecture Behavioral of RotorPass is
+	signal s_letter_out : std_logic_vector(4 downto 0);
+begin
+
+	pass_rot: process(letter_in, rot_sel, rot_start_pos, rot_ring, pass_dir)
+		case letter_in is
+			when 00000 =>    -- A
+				if
+			when 00001 =>    -- B
+			when 00010 =>    -- C
+			when 00011 =>    -- D
+			when 00100 =>    -- E
+			when 00101 =>    -- F
+			when 00110 =>    -- G
+			when 00111 =>    -- H
+			when 01000 =>    -- I
+			when 01001 =>    -- J
+			when 01010 =>    -- K
+			when 01011 =>    -- L
+			when 01100 =>    -- M
+			when 01101 =>    -- N
+			when 01110 =>    -- O
+			when 01111 =>    -- P
+			when 10000 =>    -- Q
+			when 10001 =>    -- R
+			when 10010 =>    -- S
+			when 10011 =>    -- T
+			when 10100 =>    -- U
+			when 10101 =>    -- V
+			when 10110 =>    -- W
+			when 10111 =>    -- X
+			when 11000 =>    -- Y
+			when 11001 =>    -- Z
+
+	end process pass_rot;
+
+	letter_out <= s_letter_out;
+
+end Behavioral;

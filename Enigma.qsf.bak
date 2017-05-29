@@ -1,0 +1,82 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 15.1.1 Build 189 12/02/2015 SJ Lite Edition
+# Date created = 19:14:07  April 30, 2017
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Enigma_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY MainCtrlUnit
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:14:07  APRIL 30, 2017"
+set_global_assignment -name LAST_QUARTUS_VERSION 15.1.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name VHDL_FILE RotorPass.vhd
+set_global_assignment -name VHDL_FILE Plugboard.vhd
+set_global_assignment -name VHDL_FILE Letter7SegDecoder.vhd
+set_global_assignment -name VHDL_FILE DebounceUnit.vhd
+set_global_assignment -name VHDL_FILE Enigma.vhd
+set_global_assignment -name VHDL_FILE SetUpPlugboard.vhd
+set_global_assignment -name VHDL_FILE SetUpRotors.vhd
+set_global_assignment -name VHDL_FILE SetUpRings.vhd
+set_global_assignment -name VHDL_FILE SetUpGrund.vhd
+set_global_assignment -name VHDL_FILE SetUpCtrlUnit.vhd
+set_global_assignment -name VHDL_FILE CipherLetterUnit.vhd
+set_global_assignment -name VHDL_FILE GetLetter.vhd
+set_global_assignment -name VHDL_FILE RotateRotors.vhd
+set_global_assignment -name VHDL_FILE Reflector.vhd
+set_global_assignment -name VHDL_FILE OnewayPass.vhd
+set_global_assignment -name VHDL_FILE CipherCtrlUnit.vhd
+set_global_assignment -name VHDL_FILE MainCtrlUnit.vhd
+set_global_assignment -name VHDL_FILE Bin7SegDecoder.vhd
+set_global_assignment -name VHDL_FILE TimerN.vhd
+set_global_assignment -name VHDL_FILE CounterUpN.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE CipherLetterUnit.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE OnewayPass.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE RotorPass.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CipherCtrlUnit.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE RotateRotors.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Plugboard.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MainCtrlUnit.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SetUpPlugboard.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SetUpCtrlUnit.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MainCtrlUnit_withPlugboard.vwf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE alphabet_type.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
