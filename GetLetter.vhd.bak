@@ -1,9 +1,0 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-
-entity GetLetter is
-end GetLetter;
-
-architecture Behavioral of GetLetter is 
-begin
-end Behavioral;

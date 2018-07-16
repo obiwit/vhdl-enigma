@@ -1,9 +1,0 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-
-entity MainCtrlUnit is
-end MainCtrlUnit;
-
-architecture Structural of MainCtrlUnit is 
-begin
-end Structural;

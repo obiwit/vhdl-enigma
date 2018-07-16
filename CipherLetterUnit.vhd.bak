@@ -1,8 +1,0 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-
-entity CipherLetterUnit is
-end CipherLetterUnit;
-
-architecture Structural of CipherLetterUnit is 
-end Structural;

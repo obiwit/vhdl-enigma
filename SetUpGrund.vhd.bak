@@ -1,8 +1,0 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-
-entity SetUpGrund is
-end SetUpGrund;
-
-architecture Behavioral of SetUpGrund is 
-end Behavioral;

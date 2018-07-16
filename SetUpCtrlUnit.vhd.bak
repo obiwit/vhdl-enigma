@@ -1,8 +1,0 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-
-entity SetUpCtrlUnit is
-end SetUpPlugboard;
-
-architecture Structural of SetUpCtrlUnit is 
-end SetUpCtrlUnit;

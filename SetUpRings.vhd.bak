@@ -1,8 +1,0 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.all;
-
-entity SetUpRings is
-end SetUpRings;
-
-architecture Behavioral of SetUpRings is 
-end Behavioral;
